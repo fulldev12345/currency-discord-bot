@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "train": "node train.js",
     "start": "node ./src index.js",
     "dev": "nodemon ./src index.js"
   },
@@ -14,7 +15,8 @@
     "axios": "^0.27.2",
     "discord.js": "^13.8.0",
     "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "node-nlp": "^4.27.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
